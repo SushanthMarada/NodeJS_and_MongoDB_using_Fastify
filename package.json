@@ -1,0 +1,30 @@
+{
+  "name": "nodejs_and_mongodb_using_fastify",
+  "version": "1.0.0",
+  "description": "api with node and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SushanthMarada/NodeJS_and_MongoDB_using_Fastify.git"
+  },
+  "author": "Sushanth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SushanthMarada/NodeJS_and_MongoDB_using_Fastify/issues"
+  },
+  "homepage": "https://github.com/SushanthMarada/NodeJS_and_MongoDB_using_Fastify",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
